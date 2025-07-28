@@ -97,13 +97,13 @@ npm install
 
 ```js
 const firebaseConfig = {
-  apiKey: "AIzaSyCcizhjt5vvs0ndYQO12obJy0iSB3RIUk4",
-  authDomain: "music-web-app-f3600.firebaseapp.com",
-  projectId: "music-web-app-f3600",
-  storageBucket: "music-web-app-f3600.firebasestorage.app",
-  messagingSenderId: "309492903936",
-  appId: "1:309492903936:web:4f2899cd81340e05fea8e5",
-  measurementId: "G-W7K3H3GMRK"
+  apiKey: "YOUR_API_KEY",
+  authDomain: "your-app.firebaseapp.com",
+  projectId: "your-app-id",
+  storageBucket: "your-app-id.appspot.com",
+  messagingSenderId: "your-msg-id",
+  appId: "your-app-id",
+  measurementId: "your-measurement-id"
 };
 ```
 4. **Location to put the file**
@@ -120,14 +120,14 @@ music-web-app/
 import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
  // put the Firebase initialization code here
-const firebaseConfig = {  
-  apiKey: "AIzaSyCcizhjt5vvs0ndYQO12obJy0iSB3RIUk4",
-  authDomain: "music-web-app-f3600.firebaseapp.com",
-  projectId: "music-web-app-f3600",
-  storageBucket: "music-web-app-f3600.firebasestorage.app",
-  messagingSenderId: "309492903936",
-  appId: "1:309492903936:web:4f2899cd81340e05fea8e5",
-  measurementId: "G-W7K3H3GMRK"
+const firebaseConfig = {
+  apiKey: "YOUR_API_KEY",
+  authDomain: "your-app.firebaseapp.com",
+  projectId: "your-app-id",
+  storageBucket: "your-app-id.appspot.com",
+  messagingSenderId: "your-msg-id",
+  appId: "your-app-id",
+  measurementId: "your-measurement-id"
 };
 
 const app = initializeApp(firebaseConfig);
